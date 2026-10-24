@@ -1,0 +1,19 @@
+request k andr jobhi data aata h sb read kr skta h
+
+req k andr jo data ata h usko modified bhi kr skta h
+response bhi send krr skta h
+
+middleware =>route se phle req ko process ya check krta hai
+
+client ne request bejhi 
+  middleware ne data check ,token verify... ye sb krega
+route/controller (actul logic execute hota hai)
+response client ko result milta hai 
+
+next()=>tb next call hogi tbhi req aage forward hogi ,agr middleware response bejh de aur next call na ho toh req whi stop ho jaegi
+
+multer => uploaded files ko handle krta hai
+
+
+
+[token blacklisted] concept..

@@ -1,0 +1,9 @@
+hashing => ek cryptography algorithm hoti hai jisse hum plain text ko hash mei convert krty hai (random string)
+same input p same output milega
+hashing allow nhi krti hash mei dobara convert krna plain text mei
+
+npm install-scripts approve bcrypt
+npm i bcrypt
+
+
+
